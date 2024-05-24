@@ -13,16 +13,15 @@ case "$1" in
         DEPS="$DEPS libnfc-dev libpcsclite-dev"
         ;;
     mingw-32)
-        DEPS="$DEPS libnfc-dev binutils-mingw-w64-i686 gcc-mingw-w64-i686 mingw-w64-i686-dev"
+        DEPS="$DEPS libnfc binutils-mingw-w64-i686 gcc-mingw-w64-i686 mingw-w64-i686-dev"
         ;;
     mingw-64)
-        DEPS="$DEPS libnfc-dev binutils-mingw-w64-x86-64 gcc-mingw-w64-x86-64 mingw-w64-x86-64-dev"
+        DEPS="$DEPS libnfc binutils-mingw-w64-x86-64 gcc-mingw-w64-x86-64 mingw-w64-x86-64-dev"
         ;;
     macos)
         DEPS="$DEPS libnfc"
         ;;
 esac
-
 
 case "$1" in
     ubuntu|coverity|mingw-32|mingw-64)
