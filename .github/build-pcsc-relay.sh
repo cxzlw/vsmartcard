@@ -23,6 +23,7 @@ case "$1" in
         ;;
 esac
 
+
 case "$1" in
     ubuntu|coverity|mingw-32|mingw-64)
         sudo apt-get install -y $DEPS
