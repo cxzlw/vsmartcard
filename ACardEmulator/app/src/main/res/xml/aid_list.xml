@@ -31,7 +31,7 @@
         <aid-filter android:name="@string/aid_gidsapplet_truncated2"/>
     </aid-group>
     
-    <aid-group android:description="" android:category="other">
+    <aid-group android:description="@strings/applet_scie_gateway" android:category="other">
         <aid-filter android:name="@strings/aid_scie_gateway_truncated1"/>
         <aid-filter android:name="@strings/aid_scie_gateway_truncated2"/>
     </aid-group>
