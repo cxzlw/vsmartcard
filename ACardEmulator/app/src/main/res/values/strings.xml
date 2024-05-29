@@ -31,6 +31,13 @@
     <string name="applet_openpgp">Yubico\'s OpenPGP Applet</string>
     <string name="aid_oath">A000000527210101</string>
     <string name="applet_oath">Yubico\'s OATH Applet</string>
+    
+    <string name="aid_scie_gateway_truncated1">AE432E65436172642E4444463031</string>
+    <string name="aid_scie_gateway_truncated2">AE432E436F6D70616E792E4E46433031</string>
+    <string name="applet_scie_gateway">SCIE Gateway</string>
+    <string name="aid_magic">F04E66E75C02D8</string>
+    <string name="applet_magic">Magic</string>
+    
     <string name="startup_title">Tap To Emulate!</string>
     <string name="startup_message">The following smart card applets are supported:\n
         \n
