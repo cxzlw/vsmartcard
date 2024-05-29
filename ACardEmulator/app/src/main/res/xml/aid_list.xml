@@ -31,13 +31,13 @@
         <aid-filter android:name="@string/aid_gidsapplet_truncated2"/>
     </aid-group>
     
-    <aid-group android:description="SCIE Gateway" android:category="other">
-        <aid-filter android:name="AE432E65436172642E4444463031"/>
-        <aid-filter android:name="AE432E436F6D70616E792E4E46433031"/>
+    <aid-group android:description="" android:category="other">
+        <aid-filter android:name="@strings/aid_scie_gateway_truncated1"/>
+        <aid-filter android:name="@strings/aid_scie_gateway_truncated2"/>
     </aid-group>
     
-    <aid-group android:description="Magic" android:category="other">
-        <aid-filter android:name="F04E66E75C02D8"/>
+    <aid-group android:description="@strings/applet_magic" android:category="other">
+        <aid-filter android:name="@strings/aid_magic"/>
     </aid-group>
 
 </host-apdu-service>
